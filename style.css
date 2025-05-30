@@ -1,6 +1,6 @@
 /* STYLE FOR YOUR INDEX.HTML */
 body{
-background-image: url("community.jpg");
+background-image: url("../community.jpg");
 }
 
 @font-face {
