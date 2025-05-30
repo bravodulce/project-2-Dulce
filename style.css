@@ -1,11 +1,11 @@
 /* STYLE FOR YOUR INDEX.HTML */
 body{
-background-image: url("../community.jpg");
+background-image: url("community.jpg");
 }
 
 @font-face {
     font-family: fuzzy;
-    src: url("../StaticBuzz.ttf");
+    src: url("StaticBuzz.ttf");
 }
 
 .title{
