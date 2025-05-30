@@ -2,3 +2,27 @@
 body{
 background-image: url("home1.jpeg");
 }
+
+a{
+    color: rgb(249, 1, 1);
+    font-size: 30px;    
+}
+
+.PortalA{ 
+    display: block;
+    margin-top: 80px;
+    margin-left: 500px;
+}
+
+.PortalB{
+    display: block;
+    margin-top: 200px;
+    margin-left: 10px;
+}
+
+.PortalC{ 
+    display: block;
+    margin-top: px;
+    margin-left: 850px;
+}
+

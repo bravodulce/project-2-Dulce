@@ -1,4 +1,40 @@
 /* STYLE FOR YOUR INDEX.HTML */
 body{
-background-image: url("community.jpeg");
+background-image: url("community.jpg");
+}
+
+@font-face {
+    font-family: fuzzy;
+    src: url("../StaticBuzz.ttf");
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    font-family: fuzzy;
+    color: red;
+    font-size: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+        
+}
+
+.Greetings{
+    
+
+    display: flex;  
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: fuzzy;
+
+}
+
+.welcome{
+    width: 40%;
+    margin: 5%;
+    padding: 20px;
+
+    .welcome-btn{
+        cursor: pointer;
+    }
 }
