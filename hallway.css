@@ -1,5 +1,5 @@
 body{
-    background-image: url(entrance.png);
+    background-image: url(hallway.png);
 }
 
 @font-face {
@@ -8,9 +8,10 @@ body{
 }
 
 .keepgoing{
+    display: block;
 
     animation: pulse 10s infinite;
-    margin-left: 1000px;
+    padding: 150px 650px 10px;
 }
 
 a{

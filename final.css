@@ -1,0 +1,121 @@
+body{
+    background-image: url(final-stop.png);
+}
+
+@font-face {
+    font-family: fuzzy;
+    src: url(StaticBuzz.ttf);
+}
+
+img{
+    width: 60%;
+    margin-top: 200px;
+}
+
+.boss{
+    display: block;
+    position: fixed;
+
+    width: 20%;
+
+    margin: 300px px 100px;
+    padding: 100px 100px 19px 
+
+}
+
+.boss:hover{
+    background-color: black;
+    background-size: 130%;
+    background-image: url(catspirit.png);
+}
+
+p{
+ font-family: fuzzy;
+}
+
+.end{
+    display: block;
+    border: 5px soild red;
+    position: absolute;
+    
+
+    width: 50%;
+    margin: px px 100px;
+    padding: 100px 600px 19px 
+    
+}
+
+.item1{
+    animation: text 20s infinite;
+    display: block;
+
+    font-size: 50px;
+}
+
+@keyframes text{
+    0%{
+        color: rgb(238, 95, 238);
+    }
+
+    25%{
+        color:  rgb(246, 246, 100);
+    }
+
+    50%{
+        color:  rgb(62, 217, 241);
+    }
+
+    100%{
+        color:  red;
+    }
+}
+
+.item2{
+    display: block;
+
+    font-size: 10px;
+    
+}
+
+.item3{
+    display: block;
+
+   
+}
+
+.item4{
+    animation: pulse 10s infinite;
+
+    display: block;
+
+    font-size: 30px;
+    color: red;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1); /* Starting size */
+  }
+  50% {
+    transform: scale(1.1); /* Grow slightly */
+  }
+  100% {
+    transform: scale(1); /* Shrink back to original size */
+  }
+}
+
+a{
+ font-family: fuzzy;
+
+ text-decoration: none;
+
+ color: red;
+}
+
+.escape{
+    display: block;
+    position: absolute;
+
+    margin: 700px ;
+}
+

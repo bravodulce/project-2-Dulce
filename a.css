@@ -136,10 +136,10 @@ a{
 .Back2Home{
     display: block;
 
-    margin-top: 20px;
+    margin-top: 350px;
 }
 
-.buttons{
+/* .buttons{
     display: flex;
     flex-direction: row;
 }
@@ -154,7 +154,7 @@ button:hover {
 
     background-size: 80%;
 }
-
+*/
 
 
 

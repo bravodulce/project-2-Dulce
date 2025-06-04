@@ -1,3 +1,159 @@
 body{
     background-image: url(attic.jpeg);
 }
+
+
+@font-face {
+    font-family: fuzzy;
+    src: url(StaticBuzz.ttf);
+}
+
+
+.flex-container{
+    display: flex;
+    width: 100vw;
+    height: 50vh;
+    flex-direction: row;
+    /* j-c shifts item on main aisx*/
+    justify-content: space-around;
+    /* a-i shifts item on cross aisx*/   
+    align-items: flex-start;
+    
+}
+
+img{
+    width: 300px;
+    
+    animation: pulse 10s infinite;
+}
+
+.img{
+    position: relative; /* Essential for relative positioning */
+    top: 0;
+    transition: top 0.5s ease-in-out; /* Defines the transition effect */
+}
+
+img:hover {
+  /* Move the image upwards when hovered */
+    top: -10px; /* Adjust this value to control the vertical movement */
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1); /* Starting size */
+  }
+  50% {
+    transform: scale(1.1); /* Grow slightly */
+  }
+  100% {
+    transform: scale(1); /* Shrink back to original size */
+  }
+}
+
+
+.header{
+    font-family: fuzzy;
+
+    color: red;
+    font-size: 40px;
+}
+
+p{
+    font-family: fuzzy;
+    font-size: 12px;
+}
+
+p:hover{
+    color: aliceblue;
+    background-color: blue;
+}
+
+.item1{
+
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    width: 300px;
+    height: 300px;
+
+    margin: 10px;
+    padding: 30px;
+}
+
+.item2{
+    display: flex;
+    flex-direction: column;
+   
+    text-align: center;
+   
+    width: 400px;
+    height: 200px;
+
+    margin: 10px;
+    padding: 10px;
+}
+
+.item3{
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+
+    width: 400px;
+    height: 200px;
+
+    margin: 10px;
+    padding: 10px;
+}
+
+.item1:hover {
+    transform: scale(1.1);
+
+    background-size: 100%;
+    background-image: url(AlmasGemelas.png);
+}
+
+.item2:hover {
+    transform: scale(1.1);
+
+    background-size: 100%;
+    background-image: url(eyes.png);
+}
+
+.item3:hover {
+    transform: scale(1.1);
+
+    background-size: 80%;
+    background-image: url(greenaura2.png);
+}
+
+a{
+    font-family: fuzzy;
+    text-decoration: none;
+    color: red;
+}
+
+.Back2Home{
+    display: block;
+
+    margin-top: 350px;
+}
+
+/*
+.buttons{
+    display: flex;
+    flex-direction: row;
+}
+
+button{
+    font-family: fuzzy;
+    margin: 350px 185px 5px;
+}
+
+button:hover {
+    transform: scale(2.2);
+
+    background-size: 80%;
+}
+*/
