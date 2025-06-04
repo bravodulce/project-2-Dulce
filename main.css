@@ -3,26 +3,101 @@ body{
 background-image: url("home1.jpeg");
 }
 
+@font-face {
+    font-family: fuzzy;
+    src: url(StaticBuzz.ttf);
+}
+
 a{
+    font-family: fuzzy;
     color: rgb(249, 1, 1);
-    font-size: 30px;    
+    font-size: 20px;    
 }
 
 .PortalA{ 
-    display: block;
-    margin-top: 80px;
-    margin-left: 500px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 300px;
 }
 
 .PortalB{
-    display: block;
-    margin-top: 200px;
-    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+
+    margin-left: 500px;
+
+    
 }
 
 .PortalC{ 
-    display: block;
+    display: flex;
+    flex-direction: row;
+
     margin-top: px;
     margin-left: 850px;
 }
+
+.CU{
+  display: block; 
+
+  margin-left: 1110px;
+
+}
+
+img{
+    width: 15%;
+}
+
+.choose{
+    display: flex;
+    flex-direction: row;
+
+    font-family: fuzzy;
+    font-size: 60px;
+
+    margin-top: px;
+    margin-left: 100px;
+}
+
+.waiting{
+    display: flex;
+    flex-direction: row;
+
+    font-family: fuzzy;
+    font-size: 5px;
+    
+    
+    margin-left: 150px;
+    margin-top: px;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    font-family: fuzzy;
+    color: aliceblue;
+    font-size: 40px;
+    text-align: center;
+}
+
+.sweet{
+    display: flex;
+    flex-direction: row;
+
+    background-color: black;
+    border: 10px solid black;
+
+    
+    font-family: fuzzy;
+    color: aliceblue;
+    font-size: px;
+    text-align: ;
+
+    padding: 7%;
+}
+
+
+
+
+
 

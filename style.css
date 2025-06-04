@@ -16,12 +16,9 @@ background-image: url("community.jpg");
     font-size: 100px;
     margin-top: 10px;
     margin-bottom: 10px;
-        
 }
 
 .Greetings{
-    
-
     display: flex;  
     flex-direction: row;
     justify-content: space-around;
@@ -29,12 +26,34 @@ background-image: url("community.jpg");
 
 }
 
-.welcome{
-    width: 40%;
-    margin: 5%;
-    padding: 20px;
+a{
+   text-decoration: none;
+}
 
-    .welcome-btn{
-        cursor: pointer;
-    }
+.welcome-btn{
+    display: block;
+    justify-content: center;
+    
+    
+    width: 100px;
+    margin-top: 200px;
+    margin-left: 450px;
+
+    font-family: fuzzy;
+    font-size: 10px;
+    
+    color: black;
+    background-color: black;
+
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 1s;
+}
+
+.welcome-btn:hover{
+    width: 150px;
+    height: 150px;
+    font-size: 20px;
+    background-color: blue;
+    color: white;
 }
